@@ -13,11 +13,7 @@ import org.apache.http.client.ClientProtocolException;
 import org.apache.http.cookie.Cookie;
 import org.apache.http.util.EntityUtils;
 import ea.util.*;
-/**
- * 百度贴吧的发帖及其回贴
- * @author Legend、
- *
- */
+
 public class ws {
 	
 	static Map<String, String> parameters = new HashMap<String, String>();
@@ -71,7 +67,7 @@ public class ws {
 		System.out.println(retStrings[0]);
 		VerificationcCode.showGetVerificationcCode("http://net.guet.edu.cn"+retStrings[0], headers, "E:\\temp.gif");
 	}
-	//登陆
+	//鐧婚檰
 	public static  boolean testAccount(String name, String password,String valid) throws ClientProtocolException, IOException {
 		
 		
